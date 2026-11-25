@@ -1,18 +1,18 @@
--- 1. إنشاء قاعدة بيانات جديدة لمشروع المبيعات
+-- 1. Create a dedicated database for the Sales ETL project
 CREATE DATABASE Sales_ETL_DB;
 GO
 
 USE Sales_ETL_DB;
 GO
 
--- 2. إنشاء المخططات (Schemas)
+-- 2. Create schemas to organize raw and clean data layers
 CREATE SCHEMA staging;
 GO
 
 CREATE SCHEMA sales;
 GO
 
--- 3. إنشاء الجداول الثلاثة داخل مخطط sales
+-- 3. Create core tables inside the 'sales' schema
 CREATE TABLE sales.Customers (
     customer_id INT PRIMARY KEY,
     full_name VARCHAR(150) NOT NULL,
