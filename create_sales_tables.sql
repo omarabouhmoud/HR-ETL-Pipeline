@@ -35,3 +35,20 @@ CREATE TABLE sales.Orders (
     order_date DATE
 );
 GO
+
+
+select * from sales.Orders;
+
+
+select * from sales.Products;
+
+
+select * from sales.Customers;
+
+
+select DISTINCT city from sales.Customers;
+
+
+select MAX(unit_price)unit_price  from sales.Products;
+
+select * from sales.Products;
