@@ -5,7 +5,7 @@
 ---
 
 <a name="-english-version"></a>
-## 🇬🇧 English Version
+##  English Version
 
 ### 📌 Project Overview
 This project demonstrates an end-to-end data engineering and business intelligence workflow. It features an automated, idempotent **Extract, Transform, and Load (ETL)** pipeline built with **Python** and **Microsoft SQL Server 2022**, culminating in an interactive executive dashboard built with **Power BI**. The pipeline simulates real-world data operations by generating messy Excel datasets, cleansing and validating records via **Pandas**, loading them into a normalized relational database (`Sales_ETL_DB`), creating analytical SQL views, and visualizing key sales KPIs.
@@ -68,7 +68,7 @@ This project demonstrates an end-to-end data engineering and business intelligen
 ---
 
 <a name="-النسخة-العربية"></a>
-## 🇸🇦 النسخة العربية
+##  النسخة العربية
 # 🚀 مشروع متكامل: هندسة بيانات المبيعات ولوحة ذكاء الأعمال
 
 ### 📌 نظرة عامة على المشروع
