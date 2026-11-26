@@ -1,6 +1,6 @@
 # 🚀 End-to-End Sales ETL Pipeline & BI Dashboard
 
-[English Version](#-english-version) | [النسخة العربية](#-النسخة-العربية)
+[English ](#-english-version) | [ العربية](#-النسخة-العربية)
 
 ---
 
